@@ -1,0 +1,16 @@
+body {
+    background-color: silver;
+}
+
+header {
+    background-color: yellow;
+    padding: 30px;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+}
