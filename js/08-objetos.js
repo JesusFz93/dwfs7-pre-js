@@ -5,6 +5,17 @@ let persona = {
   edad: 23,
 };
 
-const { nombre, apellido, edad } = persona;
+let paciente = {
+  nombre: "Jesus",
+  apellido: "Perez",
+  edad: 23,
+  calle: "Doce",
+  activo: true,
+  numero: 45,
+  carrera: "Sistemas",
+  deporte: "Futbol",
+};
 
-console.log(nombre, apellido, edad);
+const { nombre, apellido, activo, carrera, deporte } = paciente;
+
+console.log(nombre, apellido, activo, carrera, deporte);
